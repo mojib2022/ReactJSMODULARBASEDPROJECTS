@@ -1,0 +1,69 @@
+/*Common Styles*/
+*{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-decoration: none;
+    outline: none;
+}
+/*Common Styles*/
+
+/*Display Styles**/
+.Main{
+    position: relative;
+}
+.center{
+    display: flex;
+    justify-content: center;
+}
+/*End of Display Styles*/
+
+/*Navigation Styles*/
+.navigation-wrapper{
+    background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
+    width: 100vw;
+    height: 100vh;
+    transition: width 1s ease-in-out;
+}
+
+.navigation{
+    margin-top: 5rem;
+}
+.navigation ul.center{
+    flex-direction: column;
+    justify-content: stretch;
+}
+
+.navigation ul li{
+    margin-bottom: 2rem;
+    color: white;
+    font-size: 2rem;
+    text-transform: capitalize;
+    cursor: pointer;
+    transition: transform 1s ease;
+}
+
+.navigation ul li:hover{
+    transform: scale(1.3);
+}
+
+button i{
+
+    color:black;
+    cursor: pointer;
+}
+
+.open{
+    position: absolute;
+    left: 1rem;
+    top: 1rem;
+    transition: transform 0.3s ease;
+}
+
+.open:hover{
+    transform: scale(1.3);
+}
+.change{
+    width:100vw;
+}
+/*End of Navigation Styles*/

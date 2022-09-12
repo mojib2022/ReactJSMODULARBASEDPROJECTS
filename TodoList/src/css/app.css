@@ -1,0 +1,72 @@
+
+  
+  /*To do list Styles*/
+  .todolist-wrapper{
+    width:50vw;
+    height:auto;
+    background-color: lightgray;
+    border-radius: 2rem;
+    box-shadow: 0.3rem 0.3rem 0.6rem gray,-0.3rem -0.3rem 0.6rem gray;
+  }
+  
+  .todolist-wrapper.center{
+    flex-direction: column;
+    justify-content:flex-start;
+  }
+  
+  .todolist-wrapper h2{
+    background-color: gray;
+    width:100%;
+    color: azure;
+    text-align: center;
+    border-bottom: 0.1rem solid white;
+    margin-bottom: 1rem;
+  }
+  .todolist-wrapper .form{
+    width:90%;
+  }
+  .todolist-wrapper .form input[type='text']{
+    width:80%;
+    height:1.5rem;
+    font-size: 16px;
+  }
+  
+  .todolist-wrapper .btn{
+    padding: 0.5rem;
+    border:none;
+    outline:none;
+    color: aliceblue;
+    font-weight: bold;
+    font-size: 12px;
+    cursor: pointer;
+    border-radius: 1rem;
+  }
+  
+  .items{
+    position: relative;
+    left: -0.5rem;
+    margin-top: 1rem;
+    width:85%;
+    height: auto;
+    background-color: lightgray;
+    box-shadow: 0.2rem 0.2rem 0.2rem gray,-0.2rem -0.2rem 0.4rem gray;
+  }
+  div.center{
+    border-bottom: 1px solid white;
+  }
+  .items p{
+    display: inline;
+    text-align: center;
+    color:cornflowerblue;
+    font-weight: bold;
+    font-size: 18px;
+    
+  }
+  
+  .items i{
+    color: red;
+    margin-left: 5rem;
+    cursor: pointer;
+  }
+  /*End of the To do list Styles*/
+  

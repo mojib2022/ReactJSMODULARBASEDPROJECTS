@@ -1,0 +1,110 @@
+.center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.calculator
+{
+    position: relative;
+    margin-top:10rem ;
+    padding:4rem;
+    background-color: olive;
+    border-radius: 3rem;
+    width:60%;
+    height:12rem;
+    box-shadow: 1rem 1rem 2rem white,-1rem -1rem 2rem white;
+}
+
+.calculator.center{
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.calculator h1{
+    position: absolute;
+    top: 1rem;
+    color:whitesmoke;
+    border-bottom: 0.2rem solid white;
+    text-transform: capitalize ;
+}
+
+.calculator-field.center{
+    flex-direction: column;
+}
+
+.calculator table{
+    width: 60%;
+    height: 60%;
+    border: 1px solid white;
+    box-shadow: 0.5rem 0.5rem 1rem whitesmoke,-0.5rem -0.5rem 1rem whitesmoke;
+}
+.calculator table tr td input[type='button'], input[type='text']
+{
+    background-color: white;
+    color: olivedrab;
+    padding:0.6rem 1.5rem;
+    font-weight: bold;
+    font-size: 10px;
+}
+
+/* Make the Page Responsive*/
+@media screen and (min-width: 480px) {
+    body {
+      background-color: lightgreen;
+    }
+    .calculator
+    {
+        background-color: lightgreen;
+        width:60%;
+        height:12rem;
+
+    }
+    .calculator h1{
+        top: 0.8rem;
+        font-size: 1.5rem;
+    }
+    .calculator table{
+        width: 60%;
+        height: 60%;
+    }
+  }
+
+  @media screen and (min-width: 780px) {
+    body {
+      background-color: lightgray;
+    }
+    .calculator
+    {
+        background-color: lightgray;
+        width:70%;
+        height:13rem;
+    }
+    .calculator h1{
+        top:0.7rem;
+        font-size: 2rem;
+    }
+    
+    .calculator table{
+        width: 70%;
+        height: 65%;
+    }
+  }
+  @media screen and (min-width: 1200px) {
+    body {
+      background-color: lightblue;
+    }
+    .calculator
+    {
+        background-color: lightblue;
+        width:80%;
+        height:15rem;
+    }
+    .calculator h1{
+        top:0.1rem;
+        font-size: 2.5rem;
+    }
+    .calculator table{
+        width: 80%;
+        height: 70%;
+    }
+  }

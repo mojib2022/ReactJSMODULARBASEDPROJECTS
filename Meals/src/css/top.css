@@ -1,0 +1,45 @@
+.top{
+    background-color: gray;
+    width: 100vw;
+    height: 2rem;
+  }
+ .top.center{
+    justify-content: space-between;
+  }
+  
+.top .logo{
+    color:white;
+    background-color: gray;
+    border:1px solid white;
+    margin-left: 1rem;
+    border-radius: 20%;
+    cursor: pointer;
+  }
+  
+.top .menu ul li{
+    color: white;
+    margin-left:3rem;
+    text-align: center;
+    cursor: pointer;
+    transition: transform 1s ease;
+  
+  }
+  
+.top .menu ul li:hover{
+    transform: scale(1.2);
+    box-shadow: 0.1rem 0.1rem 0.2rem gray,-0.1rem -0.1rem 0.2rem gray;
+  }
+  
+.logging div{
+    transition: transform 1s ease;
+  }
+.logging div a{
+    margin-left: 1.5rem;
+    color: white;
+    margin-right: 1rem;
+    
+  }
+  
+.logging div:hover{
+    transform: scale(1.1);
+  }

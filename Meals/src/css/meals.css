@@ -1,0 +1,41 @@
+.meals-wrapper{
+    flex-wrap: wrap;
+  }
+  
+  .meals-wrapper .meal{
+    margin-top: 5rem;
+    border: 1px solid black;
+    padding:0.5rem 1rem;
+    border-radius: 1rem;
+    transition: transform 1s ease;
+    cursor: pointer;
+    margin-right: 6rem;
+  }
+  
+  .meals-wrapper .meal.center{
+    flex-direction: column;
+    
+  }
+  
+  .meals-wrapper .meal p{
+    color:cadetblue;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    text-align: center;
+    margin: 0.5rem;
+   
+  }
+  
+  .meals-wrapper .meal p:nth-child(1)
+  {
+    border-bottom: 1px solid olive;
+  }
+  .meals-wrapper .meal:hover{
+    transform:scale(1.05);
+  }
+  .meals-wrapper .meal img{
+    width: 10rem;
+    height: 11rem;
+    border-radius: 1rem;
+    box-shadow: 0.2rem 0.2rem 0.4rem gray,-0.2rem 0.2rem 0.4rem gray;
+  }

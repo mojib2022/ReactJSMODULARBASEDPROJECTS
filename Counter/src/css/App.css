@@ -1,0 +1,96 @@
+.App {
+  text-align: center;
+}
+
+.center{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/*Counter CSS*/
+.counter.center{
+  justify-content:space-evenly;
+}
+
+.counter{
+   margin-top: 10rem;
+   background-color: gray;
+   padding: 3rem;
+   color:aliceblue;
+   text-transform: uppercase;
+   border-radius: 3rem;
+   box-shadow: 0.5rem 0.5rem 1rem white, -0.5rem -0.5rem 1rem white;
+   transform-style: preserve-3d;
+   font-weight: bold;
+}
+
+.counter h1{
+  border-bottom: 1px solid whitesmoke;
+}
+
+
+
+.counter button{
+  padding:1.5rem;
+  margin:1rem;
+  background-color: gray;
+  border-radius: 0.5rem;
+  box-shadow: 0.1rem 0.1rem 1rem whitesmoke;
+  color: whitesmoke;
+  text-transform: uppercase;
+  font-weight: bold;
+  cursor: pointer;
+  transition: transform 1s ease-in-out;
+}
+
+.counter button:hover{
+  transform: scale(1.2);
+}
+/**End of Counter CSS**/
+
+/*Responsive CSS*/
+@media screen and (min-width: 480px) {
+  body {
+    background-color: gray;
+  }
+  .counter{
+    background-color: gray;
+  }
+  .counter button{
+    background-color: gray;
+  }
+
+  .counter h1{
+   font-size: 1.5rem;
+  }
+}
+@media screen and (min-width: 680px) {
+  body {
+    background-color: rgb(63, 39, 183);
+  }
+  .counter{
+    background-color: rgb(63, 39, 183);
+  }
+  .counter button{
+    background-color: rgb(63, 39, 183);
+  }
+  .counter h1{
+    font-size: 1.8rem;
+   }
+}
+@media screen and (min-width: 1080px) {
+  body {
+    background-color: rgb(6, 64, 38);
+  }
+  .counter{
+    background-color: rgb(6, 64, 38);
+  }
+  .counter button{
+    background-color: rgb(6, 64, 38);
+  }
+  .counter h1{
+    font-size: 2rem;
+   }
+}
+/*End of Responsive CSS*/

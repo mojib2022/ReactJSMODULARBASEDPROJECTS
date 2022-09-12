@@ -1,0 +1,124 @@
+/* Common CSS */
+*{
+    margin: 0;
+    padding: 0;
+    outline: none;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+body{
+    background-color: aqua;
+}
+.center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/*End of Common CSS*/
+
+/*Form validation CSS*/
+.formValidation-wrapper.center{
+    flex-direction: column;
+    justify-content: space-around;
+
+}
+
+.formValidation-wrapper{
+    margin-top: 10rem;
+    padding: 3rem;
+    background-color: aqua;
+    box-shadow: 1rem 1rem 1rem gray, -1rem 1rem 1rem gray;
+    border-radius: 1rem;
+    width:70%;
+    height:30vh;
+}
+.formValidation-wrapper{
+    color: gray;
+}
+.formValidation-wrapper h1{
+    padding:1rem 0.5rem;
+    border-bottom: 0.1rem solid gray;
+    text-transform: capitalize;
+}
+
+.formValidation-wrapper table tr td{
+    text-align: right;
+    text-transform: uppercase;
+}
+
+.formValidation-wrapper table tr td input[type='text'],input[type='password']{
+
+    padding: 0.5rem;
+    border-radius: 0.3rem;
+    outline: none;
+}
+
+
+.formValidation-wrapper table tr td button{
+    padding:0.5rem 1rem;
+    color:gray;
+    background-color: aqua;
+    border-radius: 0.5rem;
+    cursor:pointer;
+    box-shadow:0.2rem 0.2rem 0.4rem gray, -0.2rem 0.2rem 0.4rem gray;
+}
+
+.formValidation-wrapper table tr td input[type='text']:focus,input[type='password']:focus{
+  background-color: aqua;
+  color: gray;
+  cursor: pointer;
+}
+/*End of form validation CSS*/
+
+/*Error css*/
+.error{
+    border: 1px solid red;
+}
+/*Error CSS*/
+.success{
+    border: 1px solid green;
+}
+/*End of error CSS*/
+
+
+/*Responsive CSS*/
+@media screen and (min-width: 480px) {
+    body {
+      background-color: lightgreen;
+    }
+    .formValidation-wrapper{
+        background-color: lightgreen;
+        width:90%;
+    }
+    .formValidation-wrapper h1{
+        font-size: 1.3rem;
+    }
+  }
+
+@media screen and (min-width: 680px) {
+    body {
+      background-color: rgb(6, 70, 6);
+    }
+    .formValidation-wrapper{
+        background-color: rgb(6, 70, 6);
+        width:90;
+    }
+    .formValidation-wrapper h1{
+        font-size: 1.4rem;
+    }
+  }
+
+@media screen and (min-width: 1080px) {
+    body {
+      background-color: rgb(29, 36, 29);
+    }
+    .formValidation-wrapper{
+        background-color: rgb(29, 36, 29);
+        width:100%;
+    }
+    .formValidation-wrapper h1{
+        font-size: 1.7rem;
+    }
+  }
+/*End of Responsive CSS*/
